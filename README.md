@@ -43,12 +43,19 @@ Fragmentação - Etapa 2
 - Na etapa 1 será gerado um arquivo com a seguinte característica:
 
 1035 2310 1 1
+
 1023 2310 1 1
+
 1013 2310 1 1
+
 1054 2310 1 1
+
      ...
-1056 2310 1 1     
+     
+1056 2310 1 1
+
 1013 2310 1 1
+
 
 -  A primeira coluna as duas primeiras colunas se referem ao elementos da rede que possuem relação entre si, as duas últimas
 colunas se referem ao momento (linha do tempo).
@@ -63,3 +70,4 @@ Execução do algoritmo de Controlabilidade de Liu - Etapa 3:
 - Neste momento execute o script em shell (bash) controllability_auto.sh, este script automatiza a execução do algoritmo de 
 Controlabilidade de Liu (NetCtrl) em todos os grafos de uma só vez.
 
+Neste repositório você encontrará todos os scripts e algoritmos assim como as bases de dados utilizadas para o estudo.
